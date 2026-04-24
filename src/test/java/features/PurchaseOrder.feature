@@ -2,7 +2,7 @@ Feature: Purchase the order from Ecommerce website
 
 Background:
 Given I landed on Ecommerce page
-
+@PlaceOrder
 Scenario Outline: Positive test on submitting the order
 
 Given Logged in with username "<username>" and password "<password>"

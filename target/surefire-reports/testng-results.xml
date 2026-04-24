@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-24T19:25:15 IST" name="Surefire suite" finished-at="2026-04-24T19:26:26 IST" duration-ms="70739">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestNGRunner@6c80d78a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-04-24T19:25:15 IST" name="Surefire test" finished-at="2026-04-24T19:26:26 IST" duration-ms="70739">
+      <class name="TestNGRunner.TestNGRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestNGRunner.TestNGRunner@6c80d78a]" started-at="2026-04-24T19:25:15 IST" name="setUpClass" finished-at="2026-04-24T19:25:17 IST" duration-ms="1908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ae7deac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestNGRunner@6c80d78a]" started-at="2026-04-24T19:25:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T19:26:24 IST" duration-ms="66755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test on submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Submit the order from Ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestNGRunner@6c80d78a]" started-at="2026-04-24T19:25:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T19:26:23 IST" duration-ms="65410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test on submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestNGRunner.TestNGRunner@6c80d78a]" started-at="2026-04-24T19:25:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-04-24T19:26:19 IST" duration-ms="61944" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Positive test on submitting the order"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase the order from Ecommerce website"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at stepDefinition.PurchaseOrderStepDef.message_is_displayed_on_confirmation_page(PurchaseOrderStepDef.java:65)
+at ✽."THANKYOU FOR THE ORDE" message is displayed on confirmation page(file:///C:/Users/LENOVO/eclipse-workspace/cucumberflex/src/test/java/features/EdgeCase.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestNGRunner.TestNGRunner@6c80d78a]" started-at="2026-04-24T19:26:24 IST" name="tearDownClass" finished-at="2026-04-24T19:26:26 IST" duration-ms="1965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestNGRunner.TestNGRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
